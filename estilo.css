@@ -54,6 +54,33 @@ body{
 .inicio .contenido-seccion header nav a i{
     font-size: 30px;
 }
+
+
+
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+    background: #fafafafa;
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+#icon-menu:hover{
+ opacity: 0.8;
+}
+
+
+
+
 .titulo{
     font-family: 'Finger Paint';
     text-align: center;
@@ -145,15 +172,38 @@ h2{
 .descubrir .contenido-seccion img{
     width: 100%;
 }
-.descubrir .contenido-seccion .info{
-    position: absolute;
-    text-align: center;
-    top: 0;
-    max-width: 900px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-top: 150px;
+.descubrir .contenido-seccion .texto{
+
+     text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    margin-top: 100px;
+    z-index: 100;
+     
+     
+
+   
 }
+h2{
+    color: #334755;
+    font-size: 20px;
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.descubrir > p{
+    color: #666;
+    line-height: 35px;
+    font-size: 20px;
+}
+     
+     
+     
+     
+     
+    
+
 .descubrir .contenido-seccion .info p{
     color: #666;
     font-size: 18px;
@@ -326,5 +376,105 @@ h2{
         }
     }
     
+    /* Responsive adaptable a dispositivos mobiles */
+    @media screen and (max-width: 1220px) {
+       
+       .esahora,
+       .suscribase,
+       .surfing,
+       .coleccion,
+       .descubrir,
+       .info,
+       .tours,
+       .inicio{
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+
+
+  @media screen and (max-width: 1220px) {
+         .fondo-cielo,
+         .fondo-img,
+         .titulo,
+         .h2
+         .texto{
+    max-width: 1000px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+   
+   
+   
+          .texto{
+    max-width: 300px;
+    margin: 10px;
+}
+
+
+}
+
+
+     
+       
+        }
+        
+        
+        
+        
+         @media screen and (max-width: 700px) {
+      
+         .info .texto p{
+    margin: 5px 0;
+ 
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 9px;
+
+
+}
+
+}
+
+
+
+h2{
+ 
+    font-size: 20px;
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.info .texto{
+    
+    max-width: 500px;
+    padding: 5px;
+    position: absolute;
+    top: 9%;
+    right: 10px;
+    transform: translateY(-5%);
+}
+
+
+.info p{
+    margin: 5px 0;
+ 
+    font-size: 5px;
+    margin-top: 4px;
+    top: 9%;
+    line-height: 9px;
+
+
+}
+     
+       
+        }
     
     
+     
