@@ -104,6 +104,7 @@ body{
   position: absolute;
   top: 10%;
   left: 40%;
+  right: 40%;
    
  
 }
@@ -116,7 +117,7 @@ body{
 
 
 .milogo img{
-    width: 70%;
+    width: 100%;
 
 
 }
@@ -504,6 +505,7 @@ h2{
 	margin-bottom: 50px;
 	display: flex;
 	align-items: center;
+	
 }
 
 .contenido-principal__imagen {
@@ -511,6 +513,9 @@ h2{
 	margin-right: 20px;
 	width: 50%;
 	max-width: 550px;
+	border-radius: 35px;
+	
+	
 }
 
 .contenido-principal__contenedor {
@@ -550,6 +555,9 @@ font-family: 'Londrina Solid';
 	background: none;
 	color: #fff;
 	opacity: 20%;
+	
+	
+	
 }
 
 .carousel__anterior:hover,
