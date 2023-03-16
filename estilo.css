@@ -19,7 +19,9 @@ body{
     background-repeat: no-repeat;
     
     height: 100%;
-    z-index: -10;
+  
+    
+    
 }
 .inicio .fondo-img{
     background: url(img/inicio1.png);
@@ -31,12 +33,14 @@ body{
     
     height: 100%;
     width: 100%;
-    z-index: 5;
+ 
     
-    
+   
     
     
 }
+
+
 .inicio .contenido-seccion{
     max-width: 1200px;
     margin: auto;
@@ -195,7 +199,7 @@ h2{
     
     height: 100%;
     width: 100%;
-
+   
     
     
     
@@ -244,6 +248,7 @@ h2{
     top: 50%;
 
     height: 100%;
+  
    
 }
 .descubrir .contenido-seccion .texto{
@@ -293,41 +298,6 @@ h2{
     color: #666;
     margin-top: 40px;
     cursor: pointer;
-}
-/* SECCION COLECCION */
-.coleccion{
-    width: 100%
- 
-    margin: auto;
-    text-align: center;
-}
-.coleccion .fila{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.coleccion .fila img{
-    max-height: 120px;
-}
-.coleccion .fila .col{
-    margin: 1% 0 1% 1.6%;
-    border: 2px solid #334755;
-    max-width: 200px;
-    width: 90%;
-    text-align: center;
-    
-}
-.coleccion .fila .col .nombre{
-    color: #334755;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin: 20px 0;
-}
-.coleccion .fila .col h3{
-    border: 2px solid #334755;
-    width: fit-content;
-    margin: 20px auto;
-    padding: 5px 15px;
 }
 
 
@@ -463,41 +433,11 @@ h2{
         }
     }
     
-    /* Responsive adaptable a dispositivos mobiles */
-    @media screen and (max-width: 1220px) {
-       
-       .esahora,
-       .suscribase,
-       .surfing,
-       .coleccion,
-       .descubrir,
-       .info,
-       .tours,
-       .inicio{
-    max-width: 1000px;
-    padding: 0 20px;
-}
+   
 
 
 
-  @media screen and (max-width: 1220px) {
-         .fondo-cielo,
-         .fondo-1000px         
-         .titulo,
-         .h2
-         .texto{
-    max-width: 900px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-}
-   
-   
-   
-          .texto{
-    max-width: 300px;
-    margin: 10px;
-}
+
 
 
 }
@@ -505,85 +445,36 @@ h2{
 
      
        
-        }
-        
-        
-        
-        
-         @media screen and (max-width: 700px) {
-      
-         .info .texto p{
-    margin: 5px 0;
- 
-    font-size: 12px;
-    margin-top: 4px;
-    line-height: 9px;
-
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-.fondo-img{
-    background: url(img/inicio1.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    position: absolute;
-    top: 0;
-    height: 500px;
-    width: 70%;
-    z-index: 5;
-}
-
-
-
-
-h2{
- 
-    font-size: 20px;
-    font-family: 'Londrina Solid';
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-
-
-
-
-.info .texto{
-    
-    max-width: 500px;
-    padding: 5px;
-    position: absolute;
-    top: 9%;
-    right: 10px;
-    transform: translateY(-5%);
-}
-
-
-.info p{
-    margin: 5px 0;
- 
-    font-size: 5px;
-    margin-top: 4px;
-    top: 9%;
-    line-height: 9px;
-
-
-}
      
+        
+        
+        
+        
        
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         
         
