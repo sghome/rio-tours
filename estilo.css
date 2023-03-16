@@ -11,23 +11,31 @@ body{
     height: 100%;
 }
 .inicio .fondo-cielo{
-    position: absolute;
+   position: relative;
     width: 100%;
     background: linear-gradient(rgba(255,255,255,0) 80%, rgba(255,255,255,1)),
     url(img/cielo.png);
     background-size: cover;
-    height: 85%;
+    background-repeat: no-repeat;
+    
+    height: 100%;
     z-index: -10;
 }
 .inicio .fondo-img{
     background: url(img/inicio1.png);
     background-size: cover;
-    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: top;
+    top: 3%;
     position: absolute;
-    top: 0;
-    height: 110%;
+    
+    height: 100%;
     width: 100%;
     z-index: 5;
+    
+    
+    
+    
 }
 .inicio .contenido-seccion{
     max-width: 1200px;
@@ -81,14 +89,56 @@ body{
 
 
 
+
+
+
+
+.logo{
+   
+   
+    
+  position: absolute;
+  top: 10%;
+  left: 40%;
+   
+ 
+}
+
+
+
+/* SECCION MILOGO */
+
+
+
+
+.milogo img{
+    width: 70%;
+
+
+}
+
+
+
+
+
+
+
 .titulo{
     font-family: 'Finger Paint';
+    bottom: 100%;
     text-align: center;
-    font-size: 12rem;
+    font-size: calc(50px + 2.6041666666666665vw);
     color: #334755;
     position: relative;
 }
+
+
+
 /* SECCION TOURS */
+
+
+
+
 .tours{
     text-align: center;
     max-width: 1100px;
@@ -129,11 +179,16 @@ h2{
     margin-top: 15px;
     line-height: 25px;
 }
+
+
+
 /* SECCION INFO */
 .info{
+    margin: 10px 0;
     position: relative;
 }
 .info img{
+margin: 200px 0;
     width: 70%;
 }
 .info .texto{
@@ -222,7 +277,8 @@ h2{
 }
 /* SECCION COLECCION */
 .coleccion{
-    max-width: 1200px;
+    width: 100%
+ 
     margin: auto;
     text-align: center;
 }
@@ -235,11 +291,12 @@ h2{
     max-height: 120px;
 }
 .coleccion .fila .col{
-    margin: 0 30px;
+    margin: 1% 0 1% 1.6%;
     border: 2px solid #334755;
     max-width: 200px;
-    width: 100%;
+    width: 90%;
     text-align: center;
+    
 }
 .coleccion .fila .col .nombre{
     color: #334755;
@@ -395,11 +452,11 @@ h2{
 
   @media screen and (max-width: 1220px) {
          .fondo-cielo,
-         .fondo-img,
+         .fondo-1000px         
          .titulo,
          .h2
          .texto{
-    max-width: 1000px;
+    max-width: 900px;
     padding: 0 20px;
     display: flex;
     justify-content: center;
@@ -439,6 +496,28 @@ h2{
 
 
 
+
+
+
+
+
+
+
+.fondo-img{
+    background: url(img/inicio1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width: 70%;
+    z-index: 5;
+}
+
+
+
+
 h2{
  
     font-size: 20px;
@@ -475,6 +554,14 @@ h2{
      
        
         }
+        
+        
+        
+        @media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
     
     
      
