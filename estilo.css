@@ -125,9 +125,9 @@ body{
 
 .titulo{
     font-family: 'Finger Paint';
-    bottom: 100%;
+    top: 25%;
     text-align: center;
-    font-size: calc(50px + 2.6041666666666665vw);
+    font-size: calc(35px + 1.8229166666666667vw);
     color: #334755;
     position: relative;
 }
@@ -188,8 +188,17 @@ h2{
     position: relative;
 }
 .info img{
-margin: 200px 0;
-    width: 70%;
+    
+    background-size: cover;
+   
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+
+    
+    
+    
 }
 .info .texto{
     background: rgba(255,255,255,.7);
@@ -225,7 +234,17 @@ margin: 200px 0;
     bottom:  150px;
 }
 .descubrir .contenido-seccion img{
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 5px;
+    background-size: 100% auto;
+   
+    position: flex;
+    top: 50%;
+
+    height: 100%;
+   
 }
 .descubrir .contenido-seccion .texto{
 
@@ -310,8 +329,15 @@ h2{
     margin: 20px auto;
     padding: 5px 15px;
 }
+
+
+
+
+
 /* SECCION SURFING */
 .surfing{
+  
+    margin-top: 50px;
     background: url(img/surfing.png);
     height: 100vh;
     background-size: cover;
@@ -324,6 +350,10 @@ h2{
     width: 100%;
     color: #ffe538;
 }
+
+
+
+
 /* SECCION SUBSCRIBASE */
 .subscribase{
     text-align: center;
