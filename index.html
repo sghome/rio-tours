@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
+    
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
@@ -93,31 +98,65 @@
     </section>
 
     <!-- SECCION COLECCION -->
-    <section class="coleccion">
-        <h2>Elige tu Destino de Aventura</h2>
-        <div class="fila">
-            <div class="col">
-                <p class="nombre">Eje cafetero</p>
-                <img src="img/silla.png" alt="">
-                <h3>$99.99</h3>
-            </div>
-            <div class="col">
-                <p class="nombre">Medellín</p>
-                <img src="img/short.png" alt="">
-                <h3>$99.99</h3>
-            </div>
-            <div class="col">
-                <p class="nombre">Bogota</p>
-                <img src="img/carpa.png" alt="">
-                <h3>$99.99</h3>
-            </div>
-            <div class="col">
-                <p class="nombre">Cartagena</p>
-                <img src="img/chaleco.png" alt="">
-                <h3>$99.99</h3>
-            </div>
-        </div>
-    </section>
+  
+  <div class="contenedor">
+		<main class="contenido-principal">
+			<img src="img/1.jpg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+			<div class="contenido-principal__contenedor">
+				<h1 class="contenido-principal__titulo">Nuestros Destinos</h1>
+				<p class="contenido-principal__resumen">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a commodo orci. Nulla ipsum ante, auctor a odio id, bibendum accumsan mauris.
+				</p>
+				<p class="contenido-principal__resumen">
+					Fusce malesuada mollis ante, at elementum mi maximus nec. Praesent volutpat, tortor sed condimentum sagittis, mi diam fringilla nibh.
+				</p>
+			</div>
+		</main>
+
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					
+					
+					<div class="carousel__elemento">
+						<img src="img/4.jpg" alt="Empire State Building">
+						<p>El Peñon</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/5.jpg" alt="Harmony Tower">
+						<p>Comuna 13</p>
+					</div>
+	
+					<div class="carousel__elemento">
+						<img src="img/6.jpg" alt="Empire State Building">
+						<p>Pueblito Paisa</p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/7.jpg" alt="Harmony Tower">
+						<p>Graffiti Tour</p>
+					</div>
+					
+					<div class="carousel__elemento">
+						<img src="img/9.jpg" alt="Harmony Tower">
+						<p>Pueblito Paisa</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+  
+  
+  
 
     <!-- SECCION SURFING -->
     <section class="surfing" id="surfing">
@@ -148,6 +187,8 @@
   <i class="fa fa-whatsapp" aria-hidden="true"></i>
   <span>Message me<span>
 </a>
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 
     <script src="app.js"></script>
 </body>
